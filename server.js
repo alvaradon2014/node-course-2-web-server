@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
   res.render('home.hbs',{
     pageTitle: 'Home Page',
 
-    welcomeMessage: 'Hi Divy!'
+    welcomeMessage: 'Hi Everyone!'
   });
 });
 
